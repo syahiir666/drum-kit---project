@@ -7,7 +7,7 @@ document.querySelectorAll(".drum").forEach(function(btn) {
     });
 });
 
-// this is keydown function
+// this is keydown
 document.addEventListener("keydown", function(event) {
     makeSound(event.key);   
     buttonAnimation(event.key);
